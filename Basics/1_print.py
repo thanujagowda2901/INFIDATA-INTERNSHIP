@@ -1,0 +1,12 @@
+print("hello world")
+print('hello world')
+print("python","java","web")
+print("welcome to")
+print("Bangalore")
+print("welcome to",end=' ')
+print("Bangalore")
+print("welcome to",end='/')   #end and sep is used to connect the words
+print("Bangalore")
+print("web","python","java",sep="/")
+print("python","java",end=' ',sep=' and ')
+print("are the programming language")

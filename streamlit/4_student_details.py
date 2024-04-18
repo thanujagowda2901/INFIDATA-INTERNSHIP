@@ -1,0 +1,17 @@
+import streamlit as st
+name=st.text_input('enter the name')
+sid=st.number_input('enter the sid')
+branch=st.text_input('enter the branch')
+email=st.text_input('enter the email')
+test1=st.number_input('enter the test1')
+test2=st.number_input('enter the test2')
+test3=st.number_input('enter the test3')
+avg=(test1+test2+test3)/3
+st.write('name',name)
+st.write("sid",sid)
+st.write("branch",branch)
+st.write('email',email)
+st.write('test1',test1)
+st.write('test2',test2)
+st.write('test3',test3)
+st.write('avg is',avg)
