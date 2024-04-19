@@ -8,6 +8,7 @@ data=pd.DataFrame({
 
 print(data)
 
+
 data.to_csv('person_info.csv',index=False)  # question 2
 
 
@@ -22,5 +23,7 @@ print('basic info:\n',data.info())  # question 6
 
 print(data.size) # question 7
 
-df=pd.read_json('sales.json')
-print(df)
+data=pd.read_json('sales.json')  #question 8
+print(data)
+
+
